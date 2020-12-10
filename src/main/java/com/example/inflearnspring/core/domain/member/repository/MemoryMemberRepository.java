@@ -1,7 +1,7 @@
-package com.example.inflearnspring.core.repository;
+package com.example.inflearnspring.core.domain.member.repository;
 
 
-import com.example.inflearnspring.core.member.Member;
+import com.example.inflearnspring.core.domain.member.Member;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,7 +1,7 @@
 package com.example.inflearnspring.core;
 
-import com.example.inflearnspring.core.member.Grade;
-import com.example.inflearnspring.core.member.Member;
+import com.example.inflearnspring.core.domain.member.Grade;
+import com.example.inflearnspring.core.domain.member.Member;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

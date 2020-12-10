@@ -1,7 +1,7 @@
-package com.example.inflearnspring.core.service;
+package com.example.inflearnspring.core.domain.member.service;
 
-import com.example.inflearnspring.core.member.Member;
-import com.example.inflearnspring.core.repository.MemberRepository;
+import com.example.inflearnspring.core.domain.member.Member;
+import com.example.inflearnspring.core.domain.member.repository.MemberRepository;
 
 public class MemberServiceImpl implements MemberService {
 
