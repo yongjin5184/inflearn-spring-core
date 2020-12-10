@@ -1,4 +1,4 @@
-package com.example.inflearnspring.core.member;
+package com.example.inflearnspring.core.domain.member;
 
 public class Member {
 
