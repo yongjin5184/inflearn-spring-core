@@ -5,10 +5,12 @@ import com.example.inflearnspring.core.domain.member.Member;
 import org.springframework.stereotype.Component;
 
 @Component
-public class FixDiscountPolicy implements DiscountPolicy{
+public class RateDiscountPolicy implements DiscountPolicy{
+
+    private static final int discountPercent = 10;
 
     @Override
     public int discount(Member member, int price) {
-        return member.getGrade() == Grade.VIP ? 1000 : 0;
+        return member.getGrade() == Grade.VIP ? price * discountPercent / 100 : 0;
     }
 }
