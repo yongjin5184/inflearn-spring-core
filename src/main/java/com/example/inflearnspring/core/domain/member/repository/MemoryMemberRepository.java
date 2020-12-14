@@ -2,10 +2,12 @@ package com.example.inflearnspring.core.domain.member.repository;
 
 
 import com.example.inflearnspring.core.domain.member.Member;
+import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
 public class MemoryMemberRepository implements MemberRepository {
 
     public static Map<Long, Member> store = new HashMap<>();

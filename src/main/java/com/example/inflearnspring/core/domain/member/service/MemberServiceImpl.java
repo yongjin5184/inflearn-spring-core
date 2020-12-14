@@ -2,7 +2,9 @@ package com.example.inflearnspring.core.domain.member.service;
 
 import com.example.inflearnspring.core.domain.member.Member;
 import com.example.inflearnspring.core.domain.member.repository.MemberRepository;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MemberServiceImpl implements MemberService {
 
     private final MemberRepository memberRepository;
