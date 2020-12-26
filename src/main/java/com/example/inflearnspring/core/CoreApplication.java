@@ -1,5 +1,6 @@
 package com.example.inflearnspring.core;
 
+import com.example.inflearnspring.core.domain.config.AppConfig;
 import com.example.inflearnspring.core.domain.member.Grade;
 import com.example.inflearnspring.core.domain.member.Member;
 import com.example.inflearnspring.core.domain.member.service.MemberService;
@@ -18,6 +19,8 @@ public class CoreApplication {
         memberService.join(new Member(1L, "yongjin", Grade.VIP));
         Member member = memberService.findMember(1L);
         System.out.println("member = " + member);
+
+        //SpringApplication.run(CoreApplication.class, args);
     }
 
 }
